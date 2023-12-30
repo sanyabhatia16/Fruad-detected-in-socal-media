@@ -1,0 +1,20 @@
+# config.yaml
+title: "Pandas Profiling Report"
+samples:
+  head: 10
+  tail: 10
+correlations:
+  pearson:
+    compute: True
+  spearman:
+    compute: True
+  kendall:
+    compute: True
+  phi_k:
+    compute: True
+  cramers:
+    compute: False
+missing_diagrams:
+  heatmap: True
+  dendrogram: True
+  matrix: True
